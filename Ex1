@@ -1,0 +1,13 @@
+n = float(input("لطفا نمره دانشجو را وارد کنید: "))
+
+if n > 90:
+    grade = "عالی"
+elif n > 70:
+    grade = "خوب"
+elif n > 50:
+    grade = "متوسط"
+else:
+    grade = "مردود"
+
+print(f"نمره: {n}, وضعیت: {grade}")
+`
